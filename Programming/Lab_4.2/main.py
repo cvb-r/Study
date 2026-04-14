@@ -72,7 +72,7 @@ def exit_p():
         pass
     
     try:
-        cpp_lib = ctypes.CDLL(r"C:\Users\wegfyhj\Documents\VS\PythonProject\qlib.dll")
+        cpp_lib = ctypes.CDLL("qlib.dll")
         cpp_lib.Clear()
     except:
         pass
